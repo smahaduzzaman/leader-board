@@ -55,3 +55,19 @@
 .rating-icons i {
     color: #FFC014;
 }
+
+@media screen and (max-width: 952px) {
+    .course-rating {
+        display: block;
+    }
+    .rating-number {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 952px) {
+    .courses {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

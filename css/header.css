@@ -66,8 +66,21 @@
     width: 50%;
 }
 
+@media screen and (mix-width: 1075px) {
+    .header-area {
+        width: 100%;
+    }
+}
+
 @media screen and (mix-width: 576px) {
     .header-area {
         width: 100%;
+    }
+    .logo-img img {
+        width: 10%;
+    }
+    .logo-text {
+        width: 30%;
+        font-size: 0.8em;
     }
 }
